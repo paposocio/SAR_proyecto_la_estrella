@@ -1,0 +1,168 @@
+<html>
+    <head>
+        <link rel="icon" type="image/png" href="https://th.bing.com/th/id/R.0d12668f87faed591dbd730d692113b2?rik=hPZ2D9T%2bBiAP%2fg&riu=http%3a%2f%2fwww.chnafricaica.com%2fupload%2f2020%2f05%2f19%2fc4c64bff72d12c48348922d1115788bb.png&ehk=s6O%2fbTioXXzgUL6roZabIbd3OiXXTuw4ANWH%2b1468vU%3d&risl=&pid=ImgRaw&r=0" sizes="64x64">
+        <!-- links -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="vista/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+                
+        <!-- scripts -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+        <!-- metainformacion -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+    <body>
+
+        <header>
+            <!-- logo -->         
+            <img class="logo" src="https://th.bing.com/th/id/R.0d12668f87faed591dbd730d692113b2?rik=hPZ2D9T%2bBiAP%2fg&riu=http%3a%2f%2fwww.chnafricaica.com%2fupload%2f2020%2f05%2f19%2fc4c64bff72d12c48348922d1115788bb.png&ehk=s6O%2fbTioXXzgUL6roZabIbd3OiXXTuw4ANWH%2b1468vU%3d&risl=&pid=ImgRaw&r=0" alt="logo">
+       
+                <div class="left_area">
+                    <h3>La <span>Estrella</span></h3>
+                </div>
+            <!-- vinculos -->
+                <nav>
+                    <ul class="nav__links">
+                        <li><a href="#tarjetas">Servicios</a></li>
+                        <li><a href="#pie">Acerca de</a></li>
+                    </ul>
+                </nav>
+
+            <!-- boton inicio de sesion -->
+                <button type="button" class="cta" data-toggle="modal" data-target="#exampleModal" style="margin-right: 2% ;">
+                    Iniciar sesion
+                </button>
+               
+            <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                      <div class="loginbox">
+                        <img src=https://th.bing.com/th/id/R.0d12668f87faed591dbd730d692113b2?rik=hPZ2D9T%2bBiAP%2fg&riu=http%3a%2f%2fwww.chnafricaica.com%2fupload%2f2020%2f05%2f19%2fc4c64bff72d12c48348922d1115788bb.png&ehk=s6O%2fbTioXXzgUL6roZabIbd3OiXXTuw4ANWH%2b1468vU%3d&risl=&pid=ImgRaw&r=0 alt="" class="avatar">
+
+                        <form  action="controlador/controlador_login.php" method="post">
+                          <p>Nombre de usuario</p>
+                          <input type="text" placeholder="Ingrese nombre de usuario" name="a1" required>
+                          <p>Contraseña</p>
+                          <input type="password" placeholder="Ingrese su clave" name="a2"required>
+                          <input type="submit" value="iniciar sesion">
+                          <a href="vista/seleccion_de_tipo_user.php">¿No tienes cuenta? ¡Registrate!</a>
+                        </form>
+                      </div>
+            
+            <p class="menu cta">Menu</p>
+        </header>
+
+        <!-- Galeria con transiciones -->
+        <div class="slider">
+            <ul>
+                <li>
+                    <img src="https://www.euston96.com/wp-content/uploads/2019/01/Arquitectura-moderna.jpg">
+                </li>
+                <li>
+                    <img src="https://okdiario.com/img/2018/03/22/arquitectura-moderna-1-655x368.jpg">
+                </li>
+                <li>
+                    <img src="https://blog.daytona.cloud/images/blog/Lo-que-debes-saber-para-optimizar-la-gesti%C3%B3n-de-un-conjunto-residencial.jpg">
+                </li>
+                <li>
+                    <img src="https://www.fhconstructores.com/images/site/proyectos/tulipanes/slide-2-480.jpg">
+                </li>
+            </ul>
+        </div>
+
+        <!-- Separador -->
+        <div style="width:100%;height:40px;" id="tarjetas"></div>
+
+        <!-- Tarjetas -->
+        <div >
+          <div class="cards">
+            <div class="card card1">
+                <div class="container">
+                    <img src="https://www.claro.com.co/portal/co/recursos_contenido/1554818549994.jpg" alt="las vegas" style="height:250px">
+                </div>
+                <div class="details">
+                    <h3>Agendamiento de citas web</h3>
+                    <p>Reserva citas directamente con el administrador desde la comodidad de tu hogar.</p>
+                </div>
+            </div>
+            <div class="card card1">
+              <div class="container">
+                  <img src="https://images.jifo.co/68098749_1598674013980.jpg" alt="las vegas" style="height:250px">
+              </div>
+              <div class="details">
+                  <h3>Acceso a servicios</h3>
+                  <p>Extensa gama de servicios que cubren cualquier necesidad y eventualidad.</p>
+              </div>
+          </div>
+            <div class="card card1">
+              <div class="container">
+                  <img src="https://directivosygerentes.es/wp-content/uploads/2021/02/Las-%C3%A1reas-de-servicio-y-soporte-al-cliente-priorizan-los-canales-y-las-capacidades-digitales.jpg" alt="las vegas" style="height:250px">
+              </div>
+              <div class="details">
+                  <h3>Funcionamiento continuo</h3>
+                  <p>Reserva tus citas en cualquier momento sin ningun tipo de interferencia.</p>
+              </div>
+          </div>
+        
+        </div>
+          
+        </div>
+
+        <!-- Separador -->
+        <div style="width:100%;height:40px;"></div>
+
+        <!-- barra -->
+        <div class="barra" style="width:100%;height:340px;background: linear-gradient( to top, #2F2B36, #353440); ">
+          <img class="imagen"src="https://www.e-dea.co/hubfs/2022/Hybrid%20Cloud%20Observability%20SW/imagen-1-17.png">
+          <p class="barra_p">Accede a servicios en linea.</p>
+        <p class="p2" >Genera reportes , anuncios y mucho mas. </p>
+        <div class="contenedor_texto">
+          <p class="p2"  >Diversas tareas al alcance de una mano en una amigable interfaz , agiliza procesos y automatizalos. 
+            Deja que la maquina trabaje para ti. </p>
+        </div>
+
+        </div>
+
+
+        <!-- footer -->
+    <footer  class="footer-distributed" id="pie">
+      <div class="footer-left">
+        <h3>LA <span>ESTRELLA</span></h3>
+        <p class="footer-company-name">Copyright © 2022 <strong><a href='https://docdro.id/Dwdtq0H'>S.A.R </a></strong>Derechos reservados</p>
+    </div>
+    
+    <div class="footer-right">
+        <p class="footer-company-about">
+            <span>Acerca del conjunto</span>
+            <strong>La estrella</strong> es un conjunto residencial fudado en el 2003 cuenta con aproximadamente 300 casas dentro de su complejo y ofrece a sus residentes
+             distintos servicios con el objetivo de servir a estos y la comunidad.
+        </p>
+
+
+    </div>
+
+</footer>
+    </body>
+    
+</html>
+
+<script>
+    /* Evento para cuando el usuario libera la tecla escrita dentro del input */
+    $('input').focusout(function(){
+        /* Obtengo el valor contenido dentro del input */
+        var value = $(this).val();
+     
+        /* Elimino todos los espacios en blanco que tenga la cadena delante y detrás */
+        var value_without_space = $.trim(value);
+        
+        /* Cambio el valor contenido por el valor sin espacios */
+        $(this).val(value_without_space);
+    });
+    </script>
