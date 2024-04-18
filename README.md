@@ -13,11 +13,11 @@ Este sistema de información se realizo en las siguientes **tecnologías**:
  - JAVASCRIPT (JQUERY)
  - BOOTSTRAP
 
-# Documentación
+# Video
 
-A continuación voy a mostrar **parte (por motivos de privacidad)** de la documentación que se llevo a cabo durante una fase de planeación previa al desarrollo o codificación del proyecto.
+Este es un video rescatado (por ello la baja calidad) que muestra deforma general como era el funcionamiento del sistema
+ - Actualmente el sistema por falta de soporte y problemas con su hosting original se encuentra inoperativo
+   
+https://github.com/paposocio/SAR_proyecto_la_estrella/assets/66534749/a41a18a9-bc91-4f53-8a42-d50085fbc19e
 
-### Diagramas UML
-
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
 
